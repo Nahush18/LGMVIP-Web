@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>To Do List</title>
+    <style>
+        body{
+            font-size: 50px;
+            margin-top: 100px;
+            text-align: center;
+            background-color: purple;
+            color: white;
+        }
+        .container{
+            text-align: center;
+        }
+        #inp{
+            padding: 5px;
+            width: 500px;
+            height: 50px;
+            border: 2px solid black;
+            font-size: 25px;
+        }
+        #btn{
+            background: red;
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #btn :hover{
+            cursor: pointer;
+        }
+        #image{
+            width: 125px;
+        }
+    </style>
+</head>
+<body>
+    <h1>To Do List <img src="ToDoImg.jpeg" alt="" id="image"></h1>
+    <div class="container">
+        <input type="text" placeholder="Enter your task here" id="inp">
+        <button id="btn">ADD</button>
+        <div class="todo" id="todocontainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
