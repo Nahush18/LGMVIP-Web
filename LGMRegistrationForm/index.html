@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <nav><title>Enrollment Form</title></nav> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div align="center">
+        <h2>Student Enrollment Form</h2>
+    </div>
+    <center>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="fname" id="fname" placeholder="Enter first name"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Middle Name</th>
+                    <td><input type="text" name="mname" id="mname" placeholder="Enter middle name"></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lname" id="lname" placeholder="Enter last name"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name="email" id="email" placeholder="Enter email"></td>
+                </tr>
+                <tr>
+                    <th>Skills</th>
+                    <td><input type="text" name="skills" id="skills" placeholder="Enter skillset"></td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td><input type="number" name="age" id="age" placeholder="Enter age"></td>
+                </tr>
+                <tr id="btna">
+                    <td colspan="2"><input type="button" name="button" id="btn" value="Enroll now" onclick="AddRow()"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Middle Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Skills</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+        </table>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>

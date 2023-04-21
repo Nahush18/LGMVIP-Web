@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+nav{
+    background-color: aqua;
+}
+table{
+	margin-top: 50px;
+	text-align: center;
+	background: aqua;
+	color: rgb(12, 11, 11);
+    padding: 10px;
+}
+table tr{
+    margin: 10px;
+}
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
